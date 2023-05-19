@@ -13,8 +13,35 @@
     <p>Durante o desenvolvimento, enfrentei alguns desafios como a integração de diferentes bibliotecas e a implementação de algumas funcionalidades específicas. Para resolver esses problemas, pesquisei a documentação oficial e recorri a fóruns e comunidades para buscar soluções. </p>
 
 ## Como instalar
-### Para criar o projeto foi preciso rodar os seguintes comandos
 
+### Inntaladores no Linux Versao 22.04
+
+* Instalar o curl
+
+    ```bash
+    $ sudo apt install curl
+    ```
+* Donwload NVM
+
+    ```bash
+    $ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+    ```
+* Adicionando NVM ao PATH
+
+    ```bash
+    $ source ~/.profile
+    ```
+* Instalar versão 10.0.0 do Node.js
+
+    ```bash
+    $ nvm install v10.0.0
+    ```
+* Usar versão 10.0.0 do Node.js
+
+    ```bash
+    $ nvm use v10.0.0
+    ```
+### Inicialização
 * Inicializar o projeto
 
     ```bash
