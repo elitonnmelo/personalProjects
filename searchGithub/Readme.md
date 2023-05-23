@@ -14,7 +14,7 @@
 
 ## Como instalar
 
-### Inntaladores no Linux Versao 22.04
+### Instaladores no Linux Versao 22.04
 
 * Instalar o curl
 
