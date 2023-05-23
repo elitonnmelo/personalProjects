@@ -41,6 +41,22 @@
     ```bash
     $ nvm use v10.0.0
     ```
+* Versão do NPM e Node
+
+    ```bash
+    $ npm -v
+    $ nvm -v
+    ```
+* Instalar Ionic e Cordova
+    ```bash
+    $ npm install -g ionic cordova
+    ```
+* Versão do Ionic e Cordova
+
+    ```bash
+    $ ionic -v
+    $ cordova -v
+    ```
 ### Inicialização
 * Inicializar o projeto
 
