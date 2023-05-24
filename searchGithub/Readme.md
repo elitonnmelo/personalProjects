@@ -82,11 +82,11 @@
 
     Modelo desktop responsivo.
 
-    ![Search Github Desktop](/src/assets/imgs/pageSearch.png)
+    ![Search Github Desktop](src/assets/imgs/pageSearch.png)
 
     Modelo mobile responsivo.
 
-    ![Search Github Mobile](/src/assets/imgs/searchGithubMobile.png)
+    ![Search Github Mobile](src/assets/imgs/searchGithubMobile.png)
 
     </div>
 * Método Paginação e Listagem
@@ -96,7 +96,7 @@
 
     Filtro de pesquisa Desktop
 
-    ![Filtro de pesquisa desktop](/src/assets/imgs/filtroPesquisaDesktop.png)
+    ![Filtro de pesquisa desktop](src/assets/imgs/filtroPesquisaDesktop.png)
 
     </div>
 * Exibir um Repositório
