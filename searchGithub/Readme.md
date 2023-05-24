@@ -77,12 +77,32 @@
 
 * Método Search
     <p>Para realizar uma pesquisa sobre um repositório foi inserido no inicio da página uma ferramenta de busca, que consiste em pegar o total de repositórios existentes  e fazer uma varredura usando a função filter que compara os caractere4s que foram digitados com os que tem disponível para exibição.</p>
+
+    <div align="center">
+
+    Modelo desktop responsivo.
+
+    ![Search Github Desktop](/src/assets/imgs/pageSerach.jpeg)
+
+    Modelo mobile responsivo.
+
+    ![Search Github Mobile](/src/assets/imgs/searchGithubMobile.jpeg)
+
+    </div>
 * Método Paginação e Listagem
     <p>Afim de uma melhor visualização para o usuário, foi soliciato que os repositorios que serestaão sendo exibidos na tela do usuário fossem apresentado em uma quantidade peq   uuena para que assim não ocorra o embaralçhamento de muitas informação em uma tela só, então eu decidir exibir apenas 5 repositorios por paginia, visto que o usuário pode clicar nos butões de next ou previous para ir adiante ou voltar nos repositórios listados. Esse método foi feito da seguinte maneira: é listado quandos items foram aparecidos na pesquisa, e entao é divido pelo o total  de itens máximo que pode aparecer em uma só tela, no caso 5, quando o número de repositórios passa de 5 , os próximos serão jogado para um a outra página, e assim por diante, evitanmdo o embralhamento de informações.</p>
+
+    <div align="center">
+
+    Filtro de pesquisa Desktop
+
+    ![Filtro de pesquisa desktop](/src/assets/imgs/filtroPesquisaDesktop.jpeg)
+
+    </div>
 * Exibir um Repositório
     <p>Para exibir um repositório basta que o usuário click no card que o mesmo desejar abrir, logo irá abrir uma nmova página com informações sobre o repositorio desejado.</p>
 * Método Filtro
-    <p>O método filter  é capaza do usuario filtra se que buscar por repositórios, issues,users, commits e entre outros, para filtar basta que o usuário click no icone superior direto e assim daraessa oportunidade ao usuário de aplicar ofiltro que desejar.</p>
+    <p>O método filter  é capaza do usuario filtra se que buscar por repositórios, issues,users, commits e entre outros, para filtar basta que o usuário click no icone superior direto e assim daraessa oportunidade ao usuário de aplicar ofiltro que desejar. A imagem pode ser vista na secção "Método Paginação e Listagem".</p>
 * Método Menu
     <p>No método no menu  que esta localizado no quanto superior esquerdo o usuário pode optar por entrar na paágina de login ou na paágina de pesquisa(principal).</p>
 ## Sobre
