@@ -9,7 +9,37 @@
 
 <ion-content padding>
 
-  <h2>Filtrar por categoria</h2>
+  <h2>Filtrar por Estrela</h2>
+  <ion-item>
+    <ion-label> Estrelas de até {{Value}}K</ion-label>
+    <ion-range [(ngModel)]="Value" min='0' max='99' color='dark'>
+    </ion-range>
+  </ion-item>
+  <h2>Filtrar por linguagem</h2>
+  <ion-row>
+    <ion-col col-10  col-xl-5>
+      <ion-list no-lines>
+        <ion-item  *ngFor="let item of language.slice((currentPage-1)*pageSize, currentPage*pageSize)">
+          <ion-label >{{item.nome}}</ion-label>
+          <ion-checkbox color="dark" ></ion-checkbox>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+    <ion-col col-10  col-xl-7>
+      <ion-list no-lines>
+        <ion-item  *ngFor="let item of language.slice((currentPage-1)*pageSize, currentPage*pageSize)">
+          <ion-label >{{item.nome}}</ion-label>
+          <ion-checkbox color="dark" ></ion-checkbox>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+    <div>
+      <button (click) = "previousPage()" ion-button icon-start clear color = "dark" [disabled]="currentPage == 1">Previous</button>
+      <button (click) = "nextPage()" ion-button icon-end clear color = "dark" [disabled]="currentPage == totalPages">Next</button>
+    </div>
+    
+  </ion-row>
+  
     <button ion-button item-end icon-start full round>
       <ion-icon name="ios-search" color='ligth'></ion-icon>
       Buscar
